@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tableViewApi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fxQ-B0-eIo">
+                                <rect key="frame" x="20" y="71" width="374" height="791"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="174" id="xjG-jQ-fD6" customClass="TableViewCell" customModule="tableViewApi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="174"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xjG-jQ-fD6" id="VN4-ca-f7Z">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="173.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCG-Av-kuo">
+                                                    <rect key="frame" x="15" y="8" width="344" height="35"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="35" id="DfU-Ex-TRL"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="24"/>
+                                                    <color key="textColor" red="0.18460056189999999" green="0.58640098569999999" blue="0.96856290099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zq-No-tyj">
+                                                    <rect key="frame" x="15" y="45" width="344" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="36" id="3ez-CR-ID4"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="22"/>
+                                                    <color key="textColor" red="0.98823529409999999" green="0.28235294119999998" blue="0.19215686269999999" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeZ-fL-MP7">
+                                                    <rect key="frame" x="15" y="93" width="345" height="15"/>
+                                                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="22"/>
+                                                    <color key="textColor" red="0.92815929651260376" green="0.51512815994970584" blue="0.85517679669902724" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vid-aH-rbf">
+                                                    <rect key="frame" x="15" y="122" width="345" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="22"/>
+                                                    <color key="textColor" red="0.57591750921891871" green="0.56317664014623892" blue="0.92815929651260376" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4zq-No-tyj" firstAttribute="top" secondItem="dCG-Av-kuo" secondAttribute="bottom" constant="2" id="7cL-fJ-oRf"/>
+                                                <constraint firstItem="4zq-No-tyj" firstAttribute="leading" secondItem="UeZ-fL-MP7" secondAttribute="leading" id="AcN-VA-Gk6"/>
+                                                <constraint firstItem="dCG-Av-kuo" firstAttribute="top" secondItem="VN4-ca-f7Z" secondAttribute="topMargin" constant="-3" id="Cd4-up-iYg"/>
+                                                <constraint firstItem="4zq-No-tyj" firstAttribute="trailing" secondItem="UeZ-fL-MP7" secondAttribute="trailing" constant="-1" id="Xqn-sb-gzM"/>
+                                                <constraint firstItem="dCG-Av-kuo" firstAttribute="centerX" secondItem="VN4-ca-f7Z" secondAttribute="centerX" id="ZeG-Ck-w2e"/>
+                                                <constraint firstItem="dCG-Av-kuo" firstAttribute="trailing" secondItem="4zq-No-tyj" secondAttribute="trailing" id="gHd-dK-QQw"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="UeZ-fL-MP7" secondAttribute="bottom" constant="55" id="h8s-6C-CI5"/>
+                                                <constraint firstItem="dCG-Av-kuo" firstAttribute="leading" secondItem="4zq-No-tyj" secondAttribute="leading" id="li1-s6-S5p"/>
+                                                <constraint firstItem="UeZ-fL-MP7" firstAttribute="top" secondItem="4zq-No-tyj" secondAttribute="bottom" constant="12" id="nPW-TI-3TO"/>
+                                                <constraint firstItem="dCG-Av-kuo" firstAttribute="leading" secondItem="VN4-ca-f7Z" secondAttribute="leadingMargin" constant="-5" id="zdh-RD-Omc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="population" destination="UeZ-fL-MP7" id="UXt-l7-zxM"/>
+                                            <outlet property="textCapital" destination="Vid-aH-rbf" id="Ug5-dR-gQf"/>
+                                            <outlet property="textName" destination="dCG-Av-kuo" id="mpG-fA-kVH"/>
+                                            <outlet property="textRegion" destination="4zq-No-tyj" id="v30-Lk-kMv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="1Fe-2h-l9P"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Tgg-f4-pQc"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="fxQ-B0-eIo" id="V1v-JC-gaN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
+        </scene>
+    </scenes>
+</document>
